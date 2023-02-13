@@ -30,6 +30,7 @@ function Audio() {
         onEnded={() => {
           handleVideoComplete();
         }}
+	preload="none"
       />
     </div>
   );
