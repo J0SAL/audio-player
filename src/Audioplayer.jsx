@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Audio.css";
 import AudioPlayer from "react-h5-audio-player";
-import audio from "/assets/day-1.mpeg";
 import "react-h5-audio-player/lib/styles.css";
 
 function Audio() {
@@ -14,7 +13,7 @@ function Audio() {
   return (
     <div>
       <AudioPlayer
-        src={audio}
+        src={"/assets/day-1.mpeg"}
         onPlay={() => {
           handleVideoStart();
         }}
