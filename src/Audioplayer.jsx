@@ -13,7 +13,7 @@ function Audio() {
   return (
     <div>
       <AudioPlayer
-        src={"/assets/day-1.mpeg"}
+        src={"/assets/day-1.mp3"}
         onPlay={() => {
           handleVideoStart();
         }}
